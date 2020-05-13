@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">covid19</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">BZp79An2sMU1hqE8BQnGvk7TKFKVvxiAvE5Rs1Xg</string>
+    <string name="back4app_client_key">tqpM7oinwT7Rm8HDRR9uSjFh2HrIyfDMp85aJhXD</string>
+    <string name="login_using">
+
+Login Using Existing Account
+</string>
+    <string name="username">
+
+Username
+</string>
+    <string name="first_time_">
+
+First time with us?
+</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

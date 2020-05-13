@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "798171417700",
+    "firebase_url": "https://sahayak-2645d.firebaseio.com",
+    "project_id": "sahayak-2645d",
+    "storage_bucket": "sahayak-2645d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798171417700:android:33be52d41539b90f73a371",
+        "android_client_info": {
+          "package_name": "com.example.covid19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798171417700-u5a7fr0qh9f926nbb6bb6og5hdidqi0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC99WKHFcbxWMeO3WLNUTL83l39NU8cN9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798171417700-u5a7fr0qh9f926nbb6bb6og5hdidqi0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

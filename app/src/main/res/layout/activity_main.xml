@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".activity.MainActivity">
+
+
+    <View
+        android:id="@+id/logo"
+        android:layout_width="342dp"
+        android:layout_height="154dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/text"
+
+        />
+
+    <TextView
+        android:id="@+id/login_using"
+        android:layout_width="375dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="216dp"
+        android:fontFamily="@font/quando"
+        android:gravity="center_horizontal|top"
+        android:text="@string/login_using"
+
+        android:textAppearance="@style/login_using" />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="75dp"
+        android:fontFamily="@font/quando"
+        android:layout_marginTop="303dp"
+        android:layout_marginRight="21dp"
+        android:background="@drawable/edittextbackground"
+        android:textColorHint="@android:color/black"
+
+        android:gravity="center"
+        android:hint="@string/username"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:layout_alignRight="@+id/username"
+        android:layout_alignParentLeft="true"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+
+        android:layout_marginTop="309dp"
+        android:layout_marginRight="329dp"
+        android:background="@drawable/person"></View>
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:layout_alignRight="@+id/username"
+        android:layout_alignParentLeft="true"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="322dp"
+        android:background="@drawable/lock"></View>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/quando"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittextbackground"
+        android:gravity="center"
+        android:hint="Password"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/rectangle_1"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:text="LOGIN"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:onClick="signin"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="472dp"></Button>
+
+
+    <TextView
+        android:id="@+id/first_time_"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/quando"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="570dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/first_time_"
+        android:textAppearance="@style/first_time_" />
+
+    <Button
+        android:id="@+id/rectangle_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="registerS"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="628dp"
+        android:text="CREAte a new account"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"></Button>
+
+
+</RelativeLayout>

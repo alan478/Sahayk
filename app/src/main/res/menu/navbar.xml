@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <item
+        android:id="@+id/twiiter"
+
+        android:title="TWEETS"
+        android:icon="@drawable/bird"></item>
+    <item
+        android:id="@+id/maps"
+        android:title="MAPS"
+        android:icon="@drawable/location"
+
+        ></item>
+    <item
+        android:id="@+id/medicines"
+        android:title="MEDICINES"
+        android:icon="@drawable/notes"
+
+        ></item>
+    <item
+        android:id="@+id/chat"
+        android:title="chat"
+        android:icon="@drawable/chat"
+
+
+        ></item>
+
+    <item
+        android:id="@+id/chat2"
+        android:title="chat"
+        android:icon="@drawable/chat"
+
+
+        ></item>
+
+
+</menu>
